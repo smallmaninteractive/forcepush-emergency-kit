@@ -39,7 +39,7 @@ git branch -D main
 git branch -D master
 ```
 If you still need some of the code in your ruined `main`/`master` branch, cherry-pick it instead of deleting it.
-```
+```sh
 git branch -m main messed_up_main
 # Or for those of you who thought the switch to main was "too heated":
 git branch -m master messed_up_master
